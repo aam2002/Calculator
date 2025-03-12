@@ -1,0 +1,91 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.bossBox {
+  padding: 40px;
+  margin: 40px;
+  background-color: rgba(255, 255, 255, 0);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(12.5px);
+  -webkit-backdrop-filter: blur(12.5px);
+  border-radius: 10px;
+}
+.container {
+  display: flex;
+  width: 252px;
+  flex-wrap: wrap;
+}
+button {
+  border: 2px solid rgb(86, 86, 86);
+  border-radius: 5px;
+  background-color: rgb(86, 86, 86);
+  padding: 10px;
+  color: white;
+  width: 43px;
+  text-align: center;
+  margin: 10px;
+  box-shadow: 0px 0px 0px 0px white;
+  font-size: 14px;
+  transition: transform 400ms, background-color 400ms;
+}
+input {
+  outline: none;
+  border: none;
+  height: 20px;
+  width: 252px;
+  text-align: right;
+  font-size: 16px;
+  background-color: rgba(255, 255, 255, 0);
+}
+#history {
+  outline: none;
+  border: none;
+  height: 20px;
+  width: 252px;
+  text-align: right;
+  font-size: 16px;
+  color: rgb(255, 254, 254);
+}
+button.equalBtn {
+  width: 106px;
+}
+button:active {
+  transform: scale(0.92);
+  background-color: rgb(119, 119, 119);
+}
+.input-result .tempory {
+  color: gray;
+  font-size: medium;
+  font-size: 20px;
+  height: 30px;
+  width: 252px;
+  text-align: right;
+}
+.input-result .final {
+  animation: pop 170ms ease-in forwards;
+  color: rgb(22, 22, 22);
+  font-size: large;
+  height: 30px;
+  width: 252px;
+  text-align: right;
+}
+
+@keyframes pop {
+  from {
+    font-size: 20px;
+    left: 0%;
+  }
+  to {
+    left: 0%;
+    font-size: 30px;
+  }
+}
