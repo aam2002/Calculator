@@ -79,7 +79,7 @@ button:active {
 }
 .input-result .final {
   animation: pop 170ms ease-in forwards;
-  color: rgb(22, 22, 22);
+  color: rgb(0, 0, 0);
   font-size: large;
   height: 30px;
   /* width: 252px; */
