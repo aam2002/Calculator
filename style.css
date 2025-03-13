@@ -13,6 +13,7 @@ body {
 .bossBox {
   padding: 40px;
   margin: 40px;
+  border: 1px solid white;
   background-color: rgba(255, 255, 255, 0);
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(12.5px);
@@ -33,7 +34,7 @@ button {
   width: 43px;
   text-align: center;
   margin: 10px;
-  box-shadow: 0px 0px 0px 0px white;
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.215);
   font-size: 14px;
   transition: transform 400ms, background-color 400ms;
 }
@@ -41,7 +42,7 @@ input {
   outline: none;
   border: none;
   height: 20px;
-  width: 252px;
+  width: 235px;
   text-align: right;
   font-size: 16px;
   background-color: rgba(255, 255, 255, 0);
@@ -50,7 +51,8 @@ input {
   outline: none;
   border: none;
   height: 20px;
-  width: 252px;
+  width: 235px;
+  text-shadow: 0px 0px 3px rgba(0, 0, 0, 0.318);
   text-align: right;
   font-size: 16px;
   color: rgb(255, 254, 254);
@@ -62,20 +64,25 @@ button:active {
   transform: scale(0.92);
   background-color: rgb(119, 119, 119);
 }
+.input-result {
+  width: 235px;
+  margin: auto;
+}
 .input-result .tempory {
   color: gray;
   font-size: medium;
   font-size: 20px;
   height: 30px;
-  width: 252px;
+  /* width: 252px; */
   text-align: right;
+  text-shadow: 0px 0px 3px rgba(255, 255, 255, 0.143);
 }
 .input-result .final {
   animation: pop 170ms ease-in forwards;
   color: rgb(22, 22, 22);
   font-size: large;
   height: 30px;
-  width: 252px;
+  /* width: 252px; */
   text-align: right;
 }
 
