@@ -36,6 +36,4 @@ Through this project, I gained experience in:
 
 Contributions are welcome! Please fork this repository and submit a pull request for any enhancements or bug fixes.
 
-## License
 
-This project is open-source and available under the [MIT License](LICENSE).
